@@ -232,8 +232,9 @@
           <tags>persp.newWizSC:org.eclipse.ui.wizards.new.file</tags>
           <tags>persp.actionSet:org.eclipse.wst.server.ui.internal.webbrowser.actionSet</tags>
           <tags>persp.actionSet:org.eclipse.debug.ui.breakpointActionSet</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_mv4aZDgtEeuzJ-D30kamYw" selectedElement="_mv4aajgtEeuzJ-D30kamYw" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_mv4aZDgtEeuzJ-D30kamYw" selectedElement="_mv4aZTgtEeuzJ-D30kamYw" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_mv4aZTgtEeuzJ-D30kamYw" elementId="topLeft" containerData="1740" selectedElement="_mv4aZjgtEeuzJ-D30kamYw">
+              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_mv4aZjgtEeuzJ-D30kamYw" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_mv4dMjgtEeuzJ-D30kamYw" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
@@ -500,7 +501,6 @@
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_mv4c_DgtEeuzJ-D30kamYw" elementId="org.eclipse.ui.editorss" selectedElement="_mv4c_TgtEeuzJ-D30kamYw">
       <children xsi:type="basic:PartStack" xmi:id="_mv4c_TgtEeuzJ-D30kamYw" elementId="PartStack@617c3769" selectedElement="_mv4dKDgtEeuzJ-D30kamYw">
-        <tags>active</tags>
         <tags>noFocus</tags>
         <children xsi:type="basic:Part" xmi:id="_mv4c_jgtEeuzJ-D30kamYw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="OrderController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;OrderController.java&quot; partName=&quot;OrderController.java&quot; title=&quot;OrderController.java&quot; tooltip=&quot;kkyochon/src/shop/kkyochon/banban/order/controller/OrderController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/kkyochon/src/shop/kkyochon/banban/order/controller/OrderController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2538&quot; selectionTopPixel=&quot;2435&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -645,7 +645,6 @@
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.eclipse.jst.jsp.core.jspsource.source</tags>
-          <tags>active</tags>
         </children>
       </children>
     </sharedElements>
@@ -673,6 +672,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_mv4dMzgtEeuzJ-D30kamYw" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -927,7 +928,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mv5BojgtEeuzJ-D30kamYw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_mv5BqjgtEeuzJ-D30kamYw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_mv6S7zgtEeuzJ-D30kamYw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sa-tIDgzEeuxQceeaB2O6w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_mv6S7zgtEeuzJ-D30kamYw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mv5BrzgtEeuzJ-D30kamYw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -967,12 +968,9 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mv5CCDgtEeuzJ-D30kamYw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_mv5CDjgtEeuzJ-D30kamYw" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_mv6SmTgtEeuzJ-D30kamYw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_sbAiUDgzEeuxQceeaB2O6w" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_mv6SmTgtEeuzJ-D30kamYw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mv5CEzgtEeuzJ-D30kamYw" elementId="org.eclipse.jdt.ui.CompilationUnitEditor" visible="false">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_mv5CFDgtEeuzJ-D30kamYw" elementId="org.eclipse.jst.jsp.core.jspsource.source" visible="false">
         <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_mv5CFTgtEeuzJ-D30kamYw" elementId="group.editor" toBeRendered="false">
@@ -2113,18 +2111,18 @@
     <tags>View</tags>
     <tags>categoryTag:CodeTogether</tags>
   </descriptors>
-  <trimContributions xmi:id="_mv6PzzgtEeuzJ-D30kamYw" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
-    <children xsi:type="menu:ToolControl" xmi:id="_mv6P0DgtEeuzJ-D30kamYw" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+  <trimContributions xmi:id="_2r10UF9tEeO-yojH_y4TJA" elementId="org.eclipse.ui.ide.application.trimcontribution.QuickAccess" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" toBeRendered="false" parentId="org.eclipse.ui.main.toolbar" positionInParent="last">
+    <children xsi:type="menu:ToolControl" xmi:id="_76uUAF9tEeO-yojH_y4TJA" elementId="Spacer Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
       <tags>glue</tags>
       <tags>move_after:PerspectiveSpacer</tags>
       <tags>SHOW_RESTORE_MENU</tags>
     </children>
-    <children xsi:type="menu:ToolControl" xmi:id="_mv6P0TgtEeuzJ-D30kamYw" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
+    <children xsi:type="menu:ToolControl" xmi:id="_8tJPcF9tEeO-yojH_y4TJA" elementId="SearchField" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.quickaccess.SearchField">
       <tags>move_after:Spacer Glue</tags>
       <tags>HIDEABLE</tags>
       <tags>SHOW_RESTORE_MENU</tags>
     </children>
-    <children xsi:type="menu:ToolControl" xmi:id="_mv6P0jgtEeuzJ-D30kamYw" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+    <children xsi:type="menu:ToolControl" xmi:id="_9LgmcF9tEeO-yojH_y4TJA" elementId="Search-PS Glue" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
       <tags>glue</tags>
       <tags>move_after:SearchField</tags>
       <tags>SHOW_RESTORE_MENU</tags>
