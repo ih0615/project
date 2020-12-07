@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="shop.kkyochon.common.Action"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.common.ActionForward"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.home.action.HomeAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.menu.action.MenuAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.etc.action.StoryAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.etc.action.MapAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.csc.action.NoticeAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.csc.action.EventAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.etc.action.AgreementAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.etc.action.PrivacyAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.member.action.loginFormAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.member.action.loginProcAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.member.action.naverLoginProcAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.member.action.findIdFormAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.member.action.findIdProcAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.member.action.findPwProcAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.member.action.findPwFormAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.member.action.RegisterMemberFormAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.member.action.MyPageAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.member.action.OrderedList"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.order.action.OrderedListAction"/>
+    <fullyQualifiedTypeName name="shop.kkyochon.banban.member.action.LoginFormAction"/>
+</qualifiedTypeNameHistroy>

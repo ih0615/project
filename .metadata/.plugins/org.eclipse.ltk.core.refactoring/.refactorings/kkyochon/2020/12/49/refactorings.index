@@ -1,0 +1,84 @@
+1606975746509	Delete element
+1606975858549	Copy package
+1606975868880	Copy package
+1606975880617	Copy package
+1606975898808	Copy package
+1606975962984	Copy packages
+1606976226849	Delete elements
+1606977338442	Copy compilation unit
+1606977357137	Rename type 'BoardController'
+1606979458620	Rename package 'shop.kkyochon.banban.board'
+1606979468702	Delete element
+1606984509501	Rename package 'shop.kkyochon.banban.board'
+1606984756923	Rename package 'shop.kkyochon.banban.board'
+1606985242443	Delete element
+1607046251966	Rename type 'HomeController'
+1607046266746	Rename type 'BoardController'
+1607046276735	Rename type 'BoardController'
+1607046286909	Rename type 'BoardController'
+1607046302311	Rename type 'BoardController'
+1607046325562	Rename type 'HomeAction'
+1607046397966	Copy compilation unit
+1607046410800	Rename type 'HomeAction'
+1607046484055	Rename type 'MenuAction'
+1607047074689	Rename type 'BoardController'
+1607049516255	Rename type 'EtcAction'
+1607049539466	Move 'menuList.jsp' to 'menu'
+1607049781067	Rename resource 'menuList.jsp'
+1607049900585	Copy compilation unit
+1607050268512	Copy compilation unit
+1607050457721	Rename type 'MapAction'
+1607050552028	Copy compilation unit
+1607050724388	Copy compilation unit
+1607050852509	Copy compilation unit
+1607051536783	Copy compilation unit
+1607051548575	Rename type 'AgreementAction'
+1607051754404	Copy compilation unit
+1607052083455	Copy compilation unit
+1607052372860	Copy compilation unit
+1607052611016	Copy compilation unit
+1607052728130	Copy compilation unit
+1607052835006	Rename type 'findPwFormAction2'
+1607052853731	Copy file
+1607052902483	Copy compilation unit
+1607053031091	Copy compilation unit
+1607053051722	Rename type 'findIdFormAction'
+1607053058241	Rename type 'findIdProcAction'
+1607053063853	Rename type 'findPwFormAction'
+1607053069734	Rename type 'findPwProcAction'
+1607053076637	Rename type 'loginFormAction'
+1607053082592	Rename type 'loginProcAction'
+1607053088470	Rename type 'naverLoginProcAction'
+1607053664420	Copy compilation unit
+1607054128605	Copy compilation unit
+1607057913068	Rename type 'MenuListAction'
+1607057933208	Rename resource 'List.jsp'
+1607058246820	Delete element
+1607058390062	Copy compilation unit
+1607058401150	Rename type 'ListMenuAction'
+1607058434554	Move 'orderedList.jsp' to 'order'
+1607058888733	Delete element
+1607058904411	Copy compilation unit
+1607059463990	Copy compilation unit
+1607059601117	Copy compilation unit
+1607060000190	Copy compilation unit
+1607060269636	Copy compilation unit
+1607060513037	Copy compilation unit
+1607061824828	Rename type 'OrderedListAction'
+1607061858233	Rename resource 'orderedList.jsp'
+1607062491372	Copy compilation unit
+1607062504370	Rename type 'RegisterMemberProcAction'
+1607062823967	Copy compilation unit
+1607063260539	Copy compilation unit
+1607064081610	Copy compilation unit
+1607065726773	Copy compilation unit
+1607066145389	Copy compilation unit
+1607066163788	Rename type 'onlineOrderAction'
+1607066544842	Copy compilation unit
+1607066567785	Copy compilation unit
+1607066584284	Copy compilation unit
+1607066888919	Copy compilation unit
+1607066898450	Rename type 'MenuOrderProcAction2'
+1607067059970	Copy compilation unit
+1607067278431	Copy compilation unit
+1607067400200	Copy compilation unit
