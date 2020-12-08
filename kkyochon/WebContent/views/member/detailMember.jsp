@@ -9,7 +9,7 @@
 <body>
 회원정보 상세
 <a href="/member/updateMemberForm">회원 정보 수정</a>
-<a href="/member/leaveMember">회원 탈퇴</a>
+<a href="/member/leaveMemberForm">회원 탈퇴</a>
 <a href="/">돌아가기</a>
 </body>
 </html>

@@ -9,22 +9,22 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import shop.kkyochon.banban.home.action.HomeAction;
-import shop.kkyochon.banban.member.action.RegisterMemberFormAction;
-import shop.kkyochon.banban.member.action.RegisterMemberProcAction;
-import shop.kkyochon.banban.member.action.UpdateMemberFormAction;
-import shop.kkyochon.banban.member.action.UpdateMemberProcAction;
 import shop.kkyochon.banban.member.action.DetailMemberAction;
 import shop.kkyochon.banban.member.action.FindIdFormAction;
 import shop.kkyochon.banban.member.action.FindIdProcAction;
 import shop.kkyochon.banban.member.action.FindPwFormAction;
 import shop.kkyochon.banban.member.action.FindPwProcAction;
-import shop.kkyochon.banban.member.action.LeaveMemberAction;
+import shop.kkyochon.banban.member.action.LeaveMemberFormAction;
+import shop.kkyochon.banban.member.action.LeaveMemberProcAction;
 import shop.kkyochon.banban.member.action.LoginFormAction;
 import shop.kkyochon.banban.member.action.LoginProcAction;
 import shop.kkyochon.banban.member.action.LogoutAction;
 import shop.kkyochon.banban.member.action.MyPageAction;
 import shop.kkyochon.banban.member.action.NaverLoginProcAction;
+import shop.kkyochon.banban.member.action.RegisterMemberFormAction;
+import shop.kkyochon.banban.member.action.RegisterMemberProcAction;
+import shop.kkyochon.banban.member.action.UpdateMemberFormAction;
+import shop.kkyochon.banban.member.action.UpdateMemberProcAction;
 import shop.kkyochon.common.Action;
 import shop.kkyochon.common.ActionForward;
 
@@ -139,8 +139,15 @@ public class MemberController extends HttpServlet {
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-		}  else if (command.equals("/leaveMember")) {
-			Action action = new LeaveMemberAction();
+		} else if (command.equals("/leaveMemberForm")) {
+			Action action = new LeaveMemberFormAction();
+			try {
+				forward = action.execute(request, response);
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		} else if (command.equals("/leaveMemberProc")) {
+			Action action = new LeaveMemberProcAction();
 			try {
 				forward = action.execute(request, response);
 			} catch (Exception e) {

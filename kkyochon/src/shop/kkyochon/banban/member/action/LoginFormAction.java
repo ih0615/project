@@ -11,7 +11,7 @@ public class LoginFormAction implements Action{
 	@Override
 	public ActionForward execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		ActionForward forward = new ActionForward();
-		forward.setPath("/views/member/loginForm.jsp");
+		forward.setPath("/views/member/leaveMemberForm.jsp");
 		return forward;
 	}
  
