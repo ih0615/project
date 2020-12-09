@@ -30,3 +30,6 @@ hs_err_pid*
 *.lock
 *.ini
 *.index
+.metadata/.plugins/org.eclipse.core.resources/.history/e6/009b1a74fa39001b1052afee09aad8d8
+*.index
+.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1060764663.index
