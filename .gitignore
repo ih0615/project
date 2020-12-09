@@ -24,3 +24,8 @@ hs_err_pid*
 .metadata/.plugins/com.genuitec.eclipse.devstyle/recent.json
 *.properties
 *.xmi
+.metadata/.plugins/org.eclipse.core.resources/.history/c/a06353ecf939001b1052afee09aad8d8
+.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1060764663.index
+.metadata/version.ini
+*.lock
+*.ini
